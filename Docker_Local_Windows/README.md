@@ -21,7 +21,7 @@ __django-admin startproject myproject .__
 
 
 # 4. Dockerfile fayl yarating:
-'''rb
+```rb
 FROM python:3.9-slim-buster
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
@@ -29,7 +29,7 @@ WORKDIR /code
 COPY requirements.txt /code/
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . /code/
-'''
+```
 - FROM - Bu, bazov Python3.9 imajidan foydalaniladi.
 - ENV - Python koddan bajargan bajt yoki kodni keshlashni qanday amalga oshirishni aniqlash uchun.
 - WORKDIR - Ushbu imajda ishlash uchun kerakli direktoriyani aniqlash uchun.
