@@ -12,13 +12,13 @@ venv\Scripts\activate
 
 # 2. requirements.txt faylini yarating va loyihaga kerakli paketlarni qo'shing:
 
-__Django==4.1.3__  yoki __pip install django__
+__Django==4.1.3__  yoki ```rb pip install django```
 
 
 
 # 3. Django loyiha yarating :
 
-__django-admin startproject myproject .__
+```rb django-admin startproject myproject . ```
 
 
 
@@ -57,16 +57,17 @@ services:
 
 # 6. Docker ni ishga tushiring:
 
-__docker-compose build__
-__docker-compose up__
+```rb 
+docker-compose build
+docker-compose up```
 
 - Bu kodlarni bajarish orqali, "Dockerfile" nomli fayl yordamida Docker-da oddiy Django loyihangizni ishga tushirishingiz mumkin. "docker-compose.yml" nomli fayl esa Docker konteynerlarini qurish va ishga tushurish uchun kerakli konfiguratsiyalarni o'z ichiga oladi
 
 # "http://localhost:8000" manziliga kirib, brauzeringizda loyihangizni sinab ko'ring.
 
 - Loyihaga yangilanish kiritishimiz uchun avval loyihani CTRL+C yordamida tuxtating.
-    - __python manage.py migrate__
-    - __python manage.py createsuperuser__
+    - ```rb python manage.py migrate```
+    - ```rb python manage.py createsuperuser```
     
 - Loyihani qayta ishga tushiring 
-    - __docker-compose up__
+    - ```rb docker-compose up```
