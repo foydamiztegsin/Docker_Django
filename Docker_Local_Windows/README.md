@@ -21,7 +21,7 @@ __django-admin startproject myproject .__
 
 
 # 4. Dockerfile fayl yarating:
-'''
+'''rb
 FROM python:3.9-slim-buster
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
