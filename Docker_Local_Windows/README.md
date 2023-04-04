@@ -18,7 +18,7 @@ __Django==4.1.3__  yoki ```rb pip install django```
 
 # 3. Django loyiha yarating :
 
-```rb 
+```rb
 django-admin startproject myproject . 
 ```
 
@@ -69,14 +69,10 @@ docker-compose up
 # "http://localhost:8000" manziliga kirib, brauzeringizda loyihangizni sinab ko'ring.
 
 - Loyihaga yangilanish kiritishimiz uchun avval loyihani CTRL+C yordamida tuxtating.
-    - ```rb 
-     python manage.py migrate
-    ```
-    - ```rb 
-    python manage.py createsuperuser
-    ```
+    - __python manage.py migrate__
+    - __python manage.py createsuperuser__
+    
     
 - Loyihani qayta ishga tushiring 
-    - ```rb 
-    docker-compose up
-    ```
+    - __docker-compose up__
+    
