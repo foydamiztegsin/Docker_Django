@@ -12,7 +12,10 @@ venv\Scripts\activate
 
 # 2. requirements.txt faylini yarating va loyihaga kerakli paketlarni qo'shing:
 
-__Django==4.1.3__  yoki ```rb pip install django```
+__Django==4.1.3__  yoki 
+```rb 
+pip install django
+```
 
 
 
