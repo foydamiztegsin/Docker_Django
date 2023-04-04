@@ -3,8 +3,10 @@
 
 # 1. Loyiha uchun muhit yarating:
 
-__python -m venv venv__
-__venv\Scripts\activate__
+```rb
+python -m venv venv
+venv\Scripts\activate
+```
 
 
 
@@ -39,7 +41,7 @@ COPY . /code/
 
 
 # 5. docker-compose.yml faylini yarating:
-
+```rb
 version: "3.9"
 services:
   web:
@@ -49,7 +51,7 @@ services:
       - .:/code
     ports:
       - "8000:8000"
-
+```
 
 
 
