@@ -18,7 +18,9 @@ __Django==4.1.3__  yoki ```rb pip install django```
 
 # 3. Django loyiha yarating :
 
-```rb django-admin startproject myproject . ```
+```rb 
+django-admin startproject myproject . 
+```
 
 
 
@@ -59,15 +61,22 @@ services:
 
 ```rb 
 docker-compose build
-docker-compose up```
+docker-compose up
+```
 
 - Bu kodlarni bajarish orqali, "Dockerfile" nomli fayl yordamida Docker-da oddiy Django loyihangizni ishga tushirishingiz mumkin. "docker-compose.yml" nomli fayl esa Docker konteynerlarini qurish va ishga tushurish uchun kerakli konfiguratsiyalarni o'z ichiga oladi
 
 # "http://localhost:8000" manziliga kirib, brauzeringizda loyihangizni sinab ko'ring.
 
 - Loyihaga yangilanish kiritishimiz uchun avval loyihani CTRL+C yordamida tuxtating.
-    - ```rb python manage.py migrate```
-    - ```rb python manage.py createsuperuser```
+    - ```rb 
+     python manage.py migrate
+    ```
+    - ```rb 
+    python manage.py createsuperuser
+    ```
     
 - Loyihani qayta ishga tushiring 
-    - ```rb docker-compose up```
+    - ```rb 
+    docker-compose up
+    ```
